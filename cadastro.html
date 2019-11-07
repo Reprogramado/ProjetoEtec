@@ -3,9 +3,10 @@
       <head>
         <meta charset="utf-8">
         <title> Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"></link>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> </link>   
     </head>
-    <body>
+    <body id=pagCadastro>
             <nav class="nav nav-pills flex-column flex-sm-row">
                     <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
                     <a class="flex-sm-fill text-sm-center nav-link " href="#">Historia</a>
@@ -13,24 +14,24 @@
                     <a class="flex-sm-fill text-sm-center nav-link " href="cadastro.html">Cadastro</a>
             </nav>
         <!--cabeçalho-->
-        <header> 
+        <header id="cabeçalho"> 
         </h1> Preenchimento de formulario </h1>
         </header>
         <!--Formulario-->
         <form>
         <!--Nome-->
             <div class="form-row">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-4">
                 <label for="inputNome"> Nome </label>
                 <input type="text" class="form-control" id="inputNome" placeholder="Nome">
             </div>
         <!--Sobrenome-->
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-4">
                 <label for="inputSobrenome"> Sobrenome </label>
                 <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
             </div>
         <!--Data de Nascimento-->
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-4">
                 <label for="inputData"> Data de Nascimento</label>
                 <input type="date" class="form-control" id="inputData">
             </div>
@@ -40,33 +41,33 @@
                 <input type="number" class="form-control" id="inputCpf" placeholder="CPF">
             </div>
         <!--Numero de telefone-->
-            <div class="form-group col-md-12">
-                <label for="inputTelefone"> Numero de telefone</label>
-                <input type="number" class="form-control" id="inputTelefone" placeholder="Telefone">
+            <div class="form-group col-md-6">
+                <label for="inputNumber"> Numero de telefone</label>
+                <input type="number" class="form-control" id="inputNumber" placeholder="Telefone">
             </div>
         <!--Dados para conta- Email-->
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-7">
                 <label for="inputEmail"> Insira seu email aqui</label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
-            <div class="form-group col-md-6">
-                <label for="inputEmail"> Confirme seu Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-            </div>
         <!--Senha-->
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-7">
                 <label for="inputPassword"> Insira sua senha </label>
                 <input type="password" class="form-control" id="inputPassword" placeholder="Password">
             </div> 
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-7">
                 <label for="inputPassword"> Confirmar senha </label>
                 <input type="password" class="form-control" id="inputPassword" placeholder="Password">
            </div>
            </div>
+
+           <div >
+                <input type="submit" a href="index.html" >
+           </div>
  
         </form>
 
-        <footer>
+        <footer id=rodape>
                 <p> © 2019 Hortaliças Games, inc. Todos os direitos reservados </p>
         </footer>
     </body>

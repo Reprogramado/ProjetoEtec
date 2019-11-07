@@ -1,3 +1,22 @@
-body{
+#pagHome{
+    background-color: #DEDEDE;
+}
+#pagCadastro{
+    background:rgba(15, 184, 214, 0.836);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#cabeçalho{
+    text-align:center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: fantasy;
+  font-size: 30px;
+  color:rgb(85, 85, 85);
+}
+#rodape{
+    text-align:center;
+    margin-bottom: 0%;
+    margin-top: 20%;
     background-color: #DEDEDE;
 }
