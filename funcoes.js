@@ -6,7 +6,7 @@ function TestaCPF(strCPF) {
 	resultadoInvalido = "";
 	if (strCPF == "00000000000")//return false;
 	{
-		Alert("CPF é inválido, pois está preenchido com 00000000000");
+		alert("CPF é inválido, pois está preenchido com 00000000000");
 		resultadoInvalido = "inválido";
 	}
      
